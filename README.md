@@ -28,18 +28,18 @@ Example Solutions (Version 0)
 
 a. Solution Files 
 
-    - `Case Study - Prescriptions vs Health Status.ipynb`: Solution notebook 
-    - `Case-Study-tentative-solution-barnett.pdf`: Documentation for the solution. Note that the **solution notebook** includes both the demo code for essential modules and functions - and the thought process by which the aforementioned tasks are addressed. 
-    - `Case-Study-v0-short-presentation.mov`: A short presentation for this demo. 
+   - `Case Study - Prescriptions vs Health Status.ipynb`: Solution notebook 
+   - `Case-Study-tentative-solution-barnett.pdf`: Documentation for the solution. Note that the **solution notebook** includes both the demo code for essential modules and functions - and the thought process by which the aforementioned tasks are addressed. 
+   - `Case-Study-v0-short-presentation.mov`: A short presentation for this demo. 
 
 b. Modules 
 
-    - feature_extractor.py: A module for feature extraction based on (simple) NLP methods. 
-    - data_pipeline.py: Data preprocessing
-    - evaluate.py: Model evalution
-    - icd_utils.py 
-    - plot_utils.py 
-    - utils.py
+   - `feature_extractor.py`: A module for feature extraction based on (simple) NLP methods. 
+   - `data_pipeline.py`: Data preprocessing
+   - `evaluate.py`: Model evalution
+   - `icd_utils.py` 
+   - `plot_utils.py` 
+   - `utils.py`
 
 
 
