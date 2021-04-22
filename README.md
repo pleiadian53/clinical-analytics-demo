@@ -1,5 +1,5 @@
-Case Study: Assessing Health Status Using Prescriptions and Diagnoses
-=====================================================================
+Case Study: Predicting Health Status Through Prescriptions and Diagnoses
+========================================================================
 
 
 Data Overview
@@ -13,7 +13,7 @@ For this task, we have available three datasets that simulate data for approxima
 
 2.	Patient Prescriptions (`Prescriptions.csv`). Each row of this dataset contains a patient’s prescription filled on a specific date. The prescriptions contain drug category, drug group, and drug class.
 
-3.	ICD-to-Clinical Categories Map (CCS). Each row in this file contains an ICD-10 diagnosis code (with a slightly different formatting than in the Patient Diagnosis table) and diagnosis descriptions as explained [here](https://www.hcup-us.ahrq.gov/toolssoftware/ccs10/ccs10.jsp). Note that all diagnosis codes have a CSS code, so we will have to work around this.
+3.	ICD-to-Clinical Categories Map (CCS). Each row in this file contains an ICD-10 diagnosis code (with a slightly different formatting than in the Patient Diagnosis table) and diagnosis descriptions as explained [here](https://www.hcup-us.ahrq.gov/toolssoftware/ccs10/ccs10.jsp). Note that NOT every diagnosis code has a CSS code, so we will have to work around this.
 
 Example Tasks
 -------------
@@ -40,6 +40,11 @@ b. Modules
    - `icd_utils.py` 
    - `plot_utils.py` 
    - `utils.py`
+
+Advanced Solutions (Todo)
+-------------------------
+   - Collaborative filtering 
+   - Seq2seq
 
 
 
